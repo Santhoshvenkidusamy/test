@@ -44,6 +44,6 @@ app.post("/api/post",async (req,res)=>{
     res.send(val);
 
 })
-app.listen(4000,()=>{
-    console.log("Server running on port 4000")
+app.listen(3000,()=>{
+    console.log("Server running  4000")
 })
