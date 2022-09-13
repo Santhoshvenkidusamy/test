@@ -28,7 +28,7 @@ const schema= new mongoose.Schema(
 },
 { timestamps: true }
 );
-const college =mongoose.model("college",schema);
+const collegeabc =mongoose.model("college",schema);
 app.get("/", (req, res) => {
     res.json({ message: "Welcome to MongoDb." });
   });
