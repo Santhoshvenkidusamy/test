@@ -15,7 +15,7 @@ mongoose.connect("mongodb+srv://sampple:Santhosh@cluster0.kwktymk.mongodb.net/?r
          
     }
 })
-const schema= new mongoose.Schema(
+const schemascdc= new mongoose.Schema(
 {
     clgName:String,
     location:String,
@@ -27,7 +27,7 @@ const schema= new mongoose.Schema(
     }
 },
 { timestamps: true }
-);
+)
 const collegeabc =mongoose.model("college",schema);
 app.get("/", (req, res) => {
     res.json({ message: "Welcome to MongoDb." });
